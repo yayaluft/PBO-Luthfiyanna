@@ -4,7 +4,7 @@ public class Motor {
     private String platNomor;
     private boolean statusMesin;
     private int kecepatan;
-    
+
     public void displayInfo() {
         System.out.println("Plat Nomor: " + this.platNomor);
         System.out.println("Status Mesin: " + (this.statusMesin ? "On" : "Off"));
@@ -33,8 +33,12 @@ public class Motor {
     }
 
     public void setKecepatan(int kecepatan) {
-        if(!this.statusMesin && kecepatan > 0) {
+        if (!this.statusMesin && kecepatan > 0) {
             System.out.println("Kecepatan tidak boleh lebih dari 0 jika mesin off");
+        } else if (kecepatan < 0) {
+            System.out.println("Kecepatan tidak boleh kurang dari 0");
+        } else if (kecepatan > 100) {
+            System.out.println("Kecepatan tidak boleh lebih dari 100");
         } else {
             this.kecepatan = kecepatan;
         }
