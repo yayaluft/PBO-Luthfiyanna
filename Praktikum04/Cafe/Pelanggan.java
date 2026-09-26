@@ -31,7 +31,7 @@ public class Pelanggan {
 
     public void tambahPesanan(Kasir kasir, String namaMenu) {
         Pesanan pesanan = new Pesanan();
-        pesanan.setNoPesanan(idPelanggan + "-" + (daftarPesanan.size()) + 1);
+        pesanan.setNoPesanan(idPelanggan + "-" + (daftarPesanan.size() + 1));
         pesanan.setKasir(kasir);
         pesanan.setNamaMenu(namaMenu);
         daftarPesanan.add(pesanan);
