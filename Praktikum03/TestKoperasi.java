@@ -13,14 +13,14 @@ public class TestKoperasi {
 
         System.out.println("\nMeminjam uang 4.000.000...");
         anggota1.pinjam(4000000);
-        System.out.println("Jumlah pinjaman saat ini: "+anggota1.getJumlahPinjaman());
+        System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
 
         System.out.println("\nMembayar angsuran 1.000.0000");
         anggota1.angsur(1000000);
-        System.out.println("Jumlah pinjaman saat ini: "+anggota1.getJumlahPinjaman());
+        System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
 
         System.out.println("\nMembayar angsuran 3.000.0000");
         anggota1.angsur(3000000);
-        System.out.println("Jumlah pinjaman saat ini: "+anggota1.getJumlahPinjaman());
+        System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
     }
 }
