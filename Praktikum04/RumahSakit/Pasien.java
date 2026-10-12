@@ -53,6 +53,6 @@ public class Pasien {
         konsultasi.setTanggal(tanggal);
         konsultasi.setDokter(dokter);
         konsultasi.setPerawat(perawat);
-        this.riwayatKonsultasi.add(konsultasi);
+        riwayatKonsultasi.add(konsultasi);
     }
 }
