@@ -1,4 +1,4 @@
-package Praktikum10;
+package Praktikum8;
 
 public class AbstractClassDemo {
     public static void main(String[] args) {

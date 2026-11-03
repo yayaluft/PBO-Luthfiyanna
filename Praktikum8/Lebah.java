@@ -1,4 +1,4 @@
-package Praktikum10;
+package Praktikum8;
 
 public class Lebah extends Hewan {
     public String kasta;

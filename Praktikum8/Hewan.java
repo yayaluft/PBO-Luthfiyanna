@@ -1,4 +1,4 @@
-package Praktikum10;
+package Praktikum8;
 
 public abstract class Hewan {
     public double berat;

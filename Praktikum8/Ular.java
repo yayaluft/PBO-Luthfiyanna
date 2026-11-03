@@ -1,4 +1,4 @@
-package Praktikum10;
+package Praktikum8;
 
 public class Ular extends Hewan {
     public boolean isBerbisa;
