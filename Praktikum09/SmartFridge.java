@@ -1,6 +1,6 @@
 package Praktikum09;
 
-public class SmartFridge extends Kulkas implements Audible {
+public class SmartFridge extends Kulkas implements Audible{
     public int volume;
     public String ukuranLayar;
 
@@ -8,9 +8,9 @@ public class SmartFridge extends Kulkas implements Audible {
     public void naikkanVolume() {
         volume += 1;
     }
-
+    
     @Override
     public void turunkanVolume() {
-        volume -= 1;
+       volume -= 1;
     }
 }
