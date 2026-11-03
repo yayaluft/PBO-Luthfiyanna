@@ -8,9 +8,16 @@ public class SmartFridge extends Kulkas implements Audible{
     public void naikkanVolume() {
         volume += 1;
     }
-    
+
     @Override
     public void turunkanVolume() {
        volume -= 1;
+    }
+
+    public String getInfo() {
+        String info = super.getInfo();
+        info += "Ukuran Layar: "+ ukuranLayar+"\n";
+        info += "Volume: "+ volume+"\n";
+        return info;
     }
 }
